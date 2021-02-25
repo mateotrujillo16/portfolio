@@ -13,6 +13,7 @@ const ProjectCard = ({ data }) => {
         </div>
         <Card.Text className="text-secondary">{data.description}</Card.Text>
         <Button className="mt-auto font-weight-bold">Code Source</Button>
+        <br/>
         <Button className="mt-auto font-weight-bold" block>Live Demo</Button>
       </Card.Body>
     </Card>
