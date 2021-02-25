@@ -9,7 +9,7 @@ import Footer from './Components/Footer/Footer';
 import Home from './Containers/Home/Home';
 import Contact from './Containers/Contact/Contact';
 import Projects from './Containers/Projects/Projects';
-import About from './Containers/About/About';
+import Resume from './Containers/Resume/Resume'
 
 
 class App extends Component {
@@ -20,9 +20,10 @@ class App extends Component {
       title: "Mateo Trujillo",
       headerLinks: [
         { title: 'Home', path: '/' },
-        { title: 'About', path: '/about' },
+        { title: 'Resume', path: '/resume' },
         { title: 'Projects', path: '/projects' },
-        { title: 'Contact Me', path: '/contact' }
+        { title: 'Contact Me', path: '/contact' },
+        { title: 'Resume', path: '/resume' }
       ],
       home: {
         title: 'Mateo Trujillo'
@@ -45,15 +46,15 @@ class App extends Component {
         {/* Fluid takes the entire width of the screen when using react bootstrap */}
         <Container className='p-0' fluid={true}>
 
-          <Navbar bg="transparent" sticky="top" expand='lg'>
+          <Navbar bg="white" sticky="top" expand='lg'>
 
             <Navbar.Brand>Portfolio</Navbar.Brand>
             <Navbar.Toggle aria-controls="navbar-toggle" />
 
             <Navbar.Collapse className="border-0" id="navbar-toggle">
 
-              <Nav className="ml-auto">
-                <Link className="nav-link"
+              <Nav className="ml-auto" style={{ color: "green" }}>
+                <Link className="nav-link" 
                   activeClass="active"
                   to="home"
                   spy={true}
@@ -72,6 +73,17 @@ class App extends Component {
                   duration={500}>
                   Projects
                   </Link>
+                
+                  <Link className="nav-link"
+                  activeClass="active"
+                  to="resume"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}>
+                  Resume
+                  </Link>
+                
                   <Link className="nav-link"
                   activeClass="active"
                   to="contact"
@@ -89,12 +101,14 @@ class App extends Component {
           <Home />
 
           <Projects />
+          <Resume />
           <Contact />
+
 
           {/* Route renders a component base on the path */}
           {/* <Route path="/" exact render={() => <Home title={this.state.home.title} />} /> */}
-          <Route path="/projects" render={() => <Projects title={this.state.projects.title} />} />
-          <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} />
+          {/* <Route path="/projects" render={() => <Projects title={this.state.projects.title} />} />
+          <Route path="/contact" render={() => <Contact title={this.state.contact.title} />} /> */}
 
           <Footer />
         </Container>
