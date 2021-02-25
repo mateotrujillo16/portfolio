@@ -1,0 +1,32 @@
+
+.Profileimg {
+  width: auto;
+  height: 20%;
+  /* background-image: url("portfolio-app/src/images/IMG_2174.JPG"); */
+  background-size: cover;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-position: center;
+};
+
+.card-deck {
+  width: 50vw;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+};
+
+.card{
+  width: 25%;
+};
+
+.media{
+  width: 25%;
+}
+
+#img{
+  /* background-image: url(portfolio-app/src/images/IMG_2174.JPG); */
+  width: 30vh;
+  margin-top: 0%;
+  /* height: 10%; */
+  align-items: center;
+}
