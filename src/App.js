@@ -2,8 +2,9 @@ import React, { Component } from 'react'
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { Link, animateScroll as Scroll } from 'react-scroll'
+import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import classes from './App.module.css'
+// import classes from './App.module.css'
 
 import Footer from './Components/Footer/Footer';
 import Home from './Containers/Home/Home';
@@ -53,8 +54,8 @@ class App extends Component {
 
             <Navbar.Collapse className="border-0" id="navbar-toggle">
 
-              <Nav className="ml-auto p-10">
-                <Link className={classes.navlink} 
+              <Nav className="ml-auto" style={{ color: "green" }}>
+                <Link className="nav-link"
                   activeClass="active"
                   to="home"
                   spy={true}
@@ -64,7 +65,7 @@ class App extends Component {
                   Home
                   </Link>
                 {/* <Link className="nav-link" to="/about">About</Link> */}
-                <Link className={classes.navlink} 
+                <Link className="nav-link"
                   activeClass="active"
                   to="projects"
                   spy={true}
@@ -74,7 +75,7 @@ class App extends Component {
                   Projects
                   </Link>
                 
-                  <Link className={classes.navlink} 
+                  <Link className="nav-link"
                   activeClass="active"
                   to="resume"
                   spy={true}
@@ -84,7 +85,7 @@ class App extends Component {
                   Resume
                   </Link>
                 
-                  <Link className={classes.navlink} 
+                  <Link className="nav-link"
                   activeClass="active"
                   to="contact"
                   spy={true}

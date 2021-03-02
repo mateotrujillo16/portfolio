@@ -33,12 +33,12 @@
       "name": "Pokemon Console Game",
       "id": 3,
       "description": "This is a very lightweight yet interactive game played on a code editing console or terminal. It provides an understanding of working with Node.Js",
-      "code":"",
+      "code":"https://github.com/mateotrujillo16/pokemon-game.git",
       "demo": ""
     },
 
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/HOPE.png?raw=true",
       "name": "React to Do List App",
       "id": 4,
       "description": "Simple application created to demonstrate the usability of React.Js and the use of dynamic objects as well as serving as serving as practice for creating tables and passing information with MySQL. This application lets the user add and remove events from the list",
