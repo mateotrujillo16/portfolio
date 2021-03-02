@@ -1,0 +1,12 @@
+.nav-link {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.nav-link:hover {
+  color: #0e6b0e ;
+}
+
+.nav-link:active {
+  color: #0e6b0e ;
+}

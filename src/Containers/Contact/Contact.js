@@ -72,11 +72,11 @@ class Contact extends Component {
         {/* <hr /> */}
         <Content>
           <Row>
-            <Col xs={8} md={4}>
+            <Col xs={15} md={4}>
               <Image src={img} alt="profile" fluid thumbnail />
             </Col>
             <br />
-            <Col xs={3} md={6}>
+            <Col xs={8} md={6}>
               <Form onSubmit={this.handleSubmit} className={classes.form}>
                 <Form.Group>
                   <h3>Email</h3>

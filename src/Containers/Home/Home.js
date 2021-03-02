@@ -19,10 +19,10 @@ function Home(props) {
       <Header title="Mateo Trujillo" />
       <Container>
         <Row>
-          <Col xs={6} md={4}>
+          <Col xs={15} md={4} fluid>
             <Image src={profile} alt="profile" fluid rounded />
           </Col>
-          <Col xs={3} md={8}>
+          <Col xs={10} md={8}>
             <About />
           </Col>
         </Row>
