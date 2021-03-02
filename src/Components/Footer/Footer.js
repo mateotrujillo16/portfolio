@@ -7,12 +7,13 @@ function Footer() {
     <footer className="mt-5">
       <Container fluid={true} className="">
         <Row className="border-top p-3">
-          <Col className="p-0" md={3} sm={12}>
-            Mateo Trujillo
+          <Col className="">
+            <p>Mateo Trujillo</p>
+            <p>Copyright</p>
           </Col>
-          <Col className="p-0 d-flex" md={3}>
+          {/* <Col className="p-0 d-flex" md={3}>
             Copyright
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </footer>

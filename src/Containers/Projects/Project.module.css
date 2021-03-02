@@ -1,10 +1,4 @@
-.card-deck{
-  color: blueviolet;
-}
 
-.image{
-  background-image: url('https://imgur.com/a/nL0yWK9');
-}
 
 .col {
   justify-content: center;
@@ -12,3 +6,5 @@
 }
 
 /* justify-content-center mb-5 */
+/* mt-auto font-weight-bold */
+

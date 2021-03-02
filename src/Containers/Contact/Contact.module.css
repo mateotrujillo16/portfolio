@@ -1,0 +1,14 @@
+.form {
+  vertical-align: middle;
+  margin: 10% 0 0 10%;
+  justify-content: center;
+  float: right;
+}
+
+
+
+.btn {
+  margin-top: auto;
+  font-weight: bolder;
+  background-color: #649568;
+}

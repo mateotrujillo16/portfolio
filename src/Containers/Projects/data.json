@@ -2,64 +2,84 @@
 
   [
     {
-      "image": "https://imgur.com/a/nL0yWK9",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/road-to-hire.png?raw=true",
       "name": "Gateway Project",
       "id": 0,
-      "description": "This is a project done as an entrance step before being admitted into Road to Hire. This project was done with basic understanding of HTML and CSS. Including a features such as a slideshow homepage."
+      "description": "This is a project done as an entrance step before being admitted into Road to Hire. This project was done with basic understanding of HTML and CSS.",
+      "code":"https://github.com/mateotrujillo16/gateway.git",
+      "demo": "https://road-to-nihon.netlify.app"
     },
+  
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/guessing-game.png?raw=true",
       "name": "Guessing Game API",
       "id": 1,
-      "description": ""
+      "description": "This game was created with the use of JavaScript and its features. The idea of the game is to generate a random number and use Speech Reading feature to detect which number is being said. ",
+      "code":"",
+      "demo": ""
     },
+
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/code-for-justice.png?raw=true",
       "name": "Code for Justice Hackathon",
       "id": 2,
-      "description": "A group of passionate individual who got together to work on an application that would bring awareness to a very serious issue happening."
+      "description": "A group of passionate individual who got together to work on an application that would bring awareness to a very serious issue happening.",
+      "code":"https://github.com/mateotrujillo16/code-justice.git",
+      "demo": "https://code-justice.netlify.app/"
     },
+    
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/pokemon-game.png?raw=true",
       "name": "Pokemon Console Game",
       "id": 3,
-      "description": "This is a very lightweight yet interactive game played on a code editing console or terminal. It provides an understanding of working with Node.Js"
+      "description": "This is a very lightweight yet interactive game played on a code editing console or terminal. It provides an understanding of working with Node.Js",
+      "code":"",
+      "demo": ""
     },
+
     {
       "image": "",
       "name": "React to Do List App",
       "id": 4,
-      "description": ""
+      "description": "Simple application created to demonstrate the usability of React.Js and the use of dynamic objects as well as serving as serving as practice for creating tables and passing information with MySQL. This application lets the user add and remove events from the list",
+      "code":"",
+      "demo": ""
     },
+
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/HOPE.png?raw=true",
       "name": "H.O.P.E Hackathon",
       "id": 5,
-      "description": ""
+      "description": "The H.O.P.E hackathon is an application created by a team of four developers to demonstrate the use of restful APIs, as well as, to demonstrate adaptability to communicate and work with a new team in a time crunch",
+      "code":"https://github.com/mateotrujillo16/hope-project.git",
+      "demo": "https://sunnyskies.netlify.app/"
     },
+
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/budget-app.png?raw=true",
       "name": "Budget App",
       "id": 6,
-      "description": ""
+      "description": "This project consist of the use of Node.js and Vanilla JavaScript. The main point of this project was to practice my dexterity with JavaScript.",
+      "code":"https://github.com/mateotrujillo16/week-17.git",
+      "demo": "https://budgety-application-1.netlify.app/"
     },
+
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/ecommerce.png?raw=true",
       "name": "Ecommerce Project",
       "id": 7,
-      "description": ""
+      "description": "This is a step up from the first iteration of this project where only HTML5 and CSS3 was being used. In this iteration I included React.Js as well as different libraries such Bootstrap to elevate the design and accessibility of the application",
+      "code":"https://github.com/mateotrujillo16/react-ecommerce.git",
+      "demo": "https://sunakku-crate.netlify.app/"
     },
+
     {
-      "image": "",
+      "image": "https://raw.githubusercontent.com/mateotrujillo16/images/master/friends-app.png?raw=true",
       "name": "React Friends App",
       "id": 8,
-      "description": ""
-    },
-    {
-      "image": "",
-      "name": "",
-      "id": 9,
-      "description": ""
+      "description": "In-class project created as a JavaScript practice aim to better my understanding of React.Js, while applying a new found knowledge of MySQL.",
+      "code":"https://github.com/mateotrujillo16/friends.git",
+      "demo": "https://skylark-friends-app.netlify.app"
     }
   ]
 
